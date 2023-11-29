@@ -13,6 +13,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <CreatePackage>false</CreatePackage>
     <UseSGen>false</UseSGen>
+	  <PublishAot>true</PublishAot>
+	  <_IsPublishing>true</_IsPublishing>
+	  <TrimmerSingleWarn>false</TrimmerSingleWarn>
+	  <IsAotCompatible>true</IsAotCompatible>
+	  <TrimMode>full</TrimMode>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SkiaSharp.Views" Version="2.88.6" />
