@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0-macos</TargetFramework>
     <OutputType>Exe</OutputType>
@@ -14,4 +14,7 @@
     <CreatePackage>false</CreatePackage>
     <UseSGen>false</UseSGen>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.88.6" />
+  </ItemGroup>
 </Project>
